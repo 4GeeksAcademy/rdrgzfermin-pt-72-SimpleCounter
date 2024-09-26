@@ -31,7 +31,7 @@ const Counter = () => {
                 width: "500px",
                 marginTop: "100px",
                 borderRadius: "25px",
-                boxShadow: "0 0 20px 15px yellow"
+                boxShadow: "0 0 20px 15px gold"
             }}
         >
             <h1 style={{ color: "red" }}>
