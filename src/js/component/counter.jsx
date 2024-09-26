@@ -37,11 +37,11 @@ const Counter = () => {
             <h1 style={{ color: "red" }}>
                 Fermin
             </h1>
-            <h3>
+            <h3 className="text-color">
                 This is my counter
             </h3>
-            <h1>{count}</h1>
-            <button onClick={resetCount} className="btn btn-primary">Reset Count</button>
+            <h1 className="counter">{count}</h1>
+            <button onClick={resetCount} className="btn btn-primary">Reset</button>
         </div>
      );
 }
