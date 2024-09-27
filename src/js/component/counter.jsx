@@ -22,7 +22,7 @@ const Counter = () => {
     
 
     return ( 
-        <div
+        <div 
             style={{
                 display: "flexbox",
                 margin: "auto",
@@ -41,7 +41,7 @@ const Counter = () => {
                 This is my counter
             </h3>
             <h1 className="counter">{count}</h1>
-            <button onClick={resetCount} className="btn btn-primary">Reset</button>
+            <button onClick={resetCount} className="btn btn-primary m-2">Reset</button>
         </div>
      );
 }
